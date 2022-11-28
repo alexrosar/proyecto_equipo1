@@ -1,0 +1,80 @@
+body {
+	text-align: center;
+}
+
+hr {
+	display: inline-block !important;
+	width: 80%;
+    	background-color: #000;
+    	border: 1px solid #000;
+    	border-radius: 5px;
+	margin: 25px;
+}
+
+.carousel-item img {
+	height: 450px !important;
+}
+
+.btnc {
+	padding: 10px;
+	background-color: #333;
+}
+
+.card-deck {
+	width: 85%;
+	margin: 30px auto;
+}
+
+.card-div {
+	overflow: hidden;
+}
+
+.card-img-top {
+	transform: scale(1);
+	transition: all 1.25s ease;
+}
+
+.card-img-top:hover {
+	overflow: hidden;
+	cursor: pointer;
+	transform: scale(1.25);
+	transition: all 1.25s ease;
+}
+
+.flex {
+	display: flex;
+	margin: 0 100px;
+	align-items: center;
+	justify-content: center;
+	transform: translateX(-10px);
+}
+
+.flex img {
+	margin: 0 25px;
+	border-radius: 12px;
+	transform: scale(1);
+	transition: all 1.25s ease;
+}
+
+.flex img:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: all 1.25s ease;
+}
+
+.flex-text {
+	margin: 0 50px;
+}
+
+.btn-success {
+	margin: 10px;
+	font-weight: bold;
+	transform: scale(1);
+	transition: all 1.25s ease;
+}
+
+.btn-success:hover {
+	cursor: pointer;
+	transform: scale(1.25);
+	transition: all 1.25s ease;
+}

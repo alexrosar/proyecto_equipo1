@@ -1,0 +1,104 @@
+body { 
+	background: with;
+	color: #000;
+}
+
+img {
+	margin: 25px 2opx;
+}
+
+h3 {
+	margin: 25px 20px;
+}
+
+p {
+	margin: 25px 20px;
+}
+.sticky  {
+	width: 100%;
+}
+
+table.sticky  {
+	top: 15%;
+}
+
+p.mix {
+	border: 3px solid #fff;
+	border-radius: 10px;
+	max-width: 300px;
+	padding: 10px;
+	margin: 12px 50px;
+}
+
+.underline {
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #6cc652;
+	color: #000;
+}
+
+img {
+	cursor: pointer;
+}
+
+.card-deck {
+	width: 85%;
+	margin: 15px auto;
+}
+
+.card {
+	overflow: hidden;
+}
+
+.card-img-top {
+	transform: scale(1);
+	transition: all 1.25s ease;
+}
+
+.card-img-top:hover {
+	overflow: hidden;
+	transform: scale(1.25);
+	transition: all 1.25s ease;
+}
+
+.card {
+    width: 100% !important;
+    height: 600px;
+}
+
+.price {
+	float: left;
+	margin: 0;
+	padding: 0 20px;
+	color: grey;
+}
+
+.price span {
+	color: #6CC652;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn {
+	float: right;
+	margin: 5px 10px 0 0;
+}
+
+.btn:hover {
+	transition: all 0.5s ease;
+}
+
+.tb {
+    margin: 15px;
+    width: 85%;
+    border: none;
+}
+
+.tb tr td img {
+	border-radius: 10px;
+}
+
+.tb tr td ul {
+	margin: 0 50px;
+}
+
